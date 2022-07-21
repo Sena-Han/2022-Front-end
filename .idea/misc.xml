@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/drawable-v24/bikexml.xml" value="0.1785" />
+        <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/drawable-v24/taxixml.xml" value="0.1785" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/layout/activity_2_delivery_taxi.xml" value="0.1" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/layout/activity_3_dmenu.xml" value="0.12681159420289856" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/layout/activity_3_tstation_school.xml" value="0.12681159420289856" />
