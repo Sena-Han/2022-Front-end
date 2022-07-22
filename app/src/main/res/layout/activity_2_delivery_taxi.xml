@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="._2_DeliveryTaxiActivity">
+
     <Button
         android:id="@+id/deliveryButton"
         android:layout_width="360dp"
