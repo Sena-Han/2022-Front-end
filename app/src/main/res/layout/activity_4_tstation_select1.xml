@@ -1,97 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="._4_T_StationSelect_1Activity">
 
-    <Button
-        android:id="@+id/s1"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:text="1호선"
-        android:textSize="34sp"
-        app:backgroundTint="#000F65"
-        app:layout_constraintEnd_toStartOf="@+id/s2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/s2"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="2호선"
-        android:textSize="34sp"
-        app:backgroundTint="#07F810"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/s_1"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="1호선"
+            android:textSize="34sp"
+            app:backgroundTint="#263C96"
+            app:layout_constraintEnd_toStartOf="@+id/s_2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/s3"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:text="3호선"
-        android:textSize="34sp"
-        app:backgroundTint="#FF5722"
-        app:layout_constraintEnd_toStartOf="@+id/s4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s1" />
+        <Button
+            android:id="@+id/s_2"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="2호선"
+            android:textSize="34sp"
+            app:backgroundTint="#3CB94A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/s4"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="4호선"
-        android:textSize="34sp"
-        app:backgroundTint="#03A9F4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s2" />
+        <Button
+            android:id="@+id/s_3"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="3호선"
+            android:textSize="34sp"
+            app:backgroundTint="#FF7300"
+            app:layout_constraintEnd_toStartOf="@+id/s_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_1" />
 
-    <Button
-        android:id="@+id/s5"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:text="5호선"
-        android:textSize="34sp"
-        app:backgroundTint="#6D44B5"
-        app:layout_constraintEnd_toStartOf="@+id/s6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s3" />
+        <Button
+            android:id="@+id/s_4"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="4호선"
+            android:textSize="34sp"
+            app:backgroundTint="#2C9EDE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_2" />
 
-    <Button
-        android:id="@+id/s6"
-        android:layout_width="190dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="6호선"
-        android:textSize="34sp"
-        app:backgroundTint="#C34017"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/s4" />
+        <Button
+            android:id="@+id/s_5"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="5호선"
+            android:textSize="34sp"
+            app:backgroundTint="#8936E0"
+            app:layout_constraintEnd_toStartOf="@+id/s_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_3" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/s_6"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="6호선"
+            android:textSize="34sp"
+            app:backgroundTint="#B5500B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_4" />
+
+        <Button
+            android:id="@+id/s_7"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="7호선"
+            android:textSize="34sp"
+            app:backgroundTint="#697215"
+            app:layout_constraintEnd_toStartOf="@+id/s_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_5" />
+
+        <Button
+            android:id="@+id/s_8"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="8호선"
+            android:textSize="34sp"
+            app:backgroundTint="#E51E6E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_6" />
+
+        <Button
+            android:id="@+id/s_9"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="9호선"
+            android:textSize="34sp"
+            app:backgroundTint="#D1A62C"
+            app:layout_constraintEnd_toStartOf="@+id/s_I1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_7" />
+
+        <Button
+            android:id="@+id/s_I1"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="인천1호선"
+            android:textSize="30sp"
+            app:backgroundTint="#6F99D0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_8" />
+
+        <Button
+            android:id="@+id/s_I2"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:text="인천2호선"
+            android:textSize="30sp"
+            app:backgroundTint="#E1B950"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_9" />
+
+        <Button
+            android:id="@+id/s_SB"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="신분당선"
+            android:textSize="34sp"
+            app:backgroundTint="#A71E31"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_I1" />
+
+        <Button
+            android:id="@+id/s_GU"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="경의중앙선"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/sGC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_I2" />
+
+        <Button
+            android:id="@+id/sGC"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="경춘선"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_SB" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
