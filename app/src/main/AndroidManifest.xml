@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.touchpay1111" >
+    package="com.example.touchpay1111">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TouchPay1111"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name="._4_T_s2Activity"
+            android:exported="false" />
         <activity
             android:name="._4_T_s1Activity"
             android:exported="false" />
@@ -48,7 +51,7 @@
             android:exported="false" />
         <activity
             android:name="._2_DeliveryTaxiActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
