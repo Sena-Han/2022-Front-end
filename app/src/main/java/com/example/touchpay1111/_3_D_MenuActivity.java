@@ -1,8 +1,6 @@
 package com.example.touchpay1111;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 
 public class _3_D_MenuActivity extends AppCompatActivity {
