@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TouchPay1111</string>
+    <string name="title">화서</string>
+    <string name="Seryu">세류</string>
+    <string name="Hwaseo">화서</string>
+    <string name="Incheon">인천</string>
+    <string name="DongIncheon">동인천</string>
 </resources>
