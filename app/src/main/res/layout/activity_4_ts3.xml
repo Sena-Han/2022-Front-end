@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._4_T_s3Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="569dp" />
+
+        <TextView
+            android:id="@+id/Daecheong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대청"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <TextView
+            android:id="@+id/Oksu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="옥수"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TextView
+            android:id="@+id/Jongno3ga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="종로3가"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Anguk" />
+
+        <TextView
+            android:id="@+id/Daehwa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="대화"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Juyeop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="주엽"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Daehwa" />
+
+        <TextView
+            android:id="@+id/Jeongbalsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="정발산"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Juyeop" />
+
+        <TextView
+            android:id="@+id/Madu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="마두"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Jeongbalsan" />
+
+        <TextView
+            android:id="@+id/Baekseok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="백석"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Madu" />
+
+        <TextView
+            android:id="@+id/Daegok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="대곡"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Baekseok" />
+
+        <TextView
+            android:id="@+id/Hwajeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="화정"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Daegok" />
+
+        <TextView
+            android:id="@+id/Wondang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="원당"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Hwajeong" />
+
+        <TextView
+            android:id="@+id/Wonheung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="원흥"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Wondang" />
+
+        <TextView
+            android:id="@+id/Samsong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="삼송"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Wonheung" />
+
+        <TextView
+            android:id="@+id/Jichuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="지축"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Samsong" />
+
+        <TextView
+            android:id="@+id/Gupabal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="구파발"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Jichuk" />
+
+        <TextView
+            android:id="@+id/Yeonsinnae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="연신내"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Gupabal" />
+
+        <TextView
+            android:id="@+id/Bulgwang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="불광"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Yeonsinnae" />
+
+        <TextView
+            android:id="@+id/Nokbeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="녹번"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Bulgwang" />
+
+        <TextView
+            android:id="@+id/Hongje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="홍제"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Nokbeon" />
+
+        <TextView
+            android:id="@+id/Muakjae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="무악재"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Hongje" />
+
+        <TextView
+            android:id="@+id/Dongnimmun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="독립문"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Muakjae" />
+
+        <TextView
+            android:id="@+id/Gyeongbokgung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="경복궁"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Dongnimmun" />
+
+        <TextView
+            android:id="@+id/Anguk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="안국"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Gyeongbokgung" />
+
+        <TextView
+            android:id="@+id/Euljiro3ga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="을지로3가"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Jongno3ga" />
+
+        <TextView
+            android:id="@+id/Chungmuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="충무로"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Euljiro3ga" />
+
+        <TextView
+            android:id="@+id/DonggukUniv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="동대입구"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Chungmuro" />
+
+        <TextView
+            android:id="@+id/Yaksu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약수"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/Geumho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금호"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <TextView
+            android:id="@+id/Apgujeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="압구정"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/Sinsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신사"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+        <TextView
+            android:id="@+id/Jamwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="잠원"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <TextView
+            android:id="@+id/ExpressBusTerminal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고속터미널"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <TextView
+            android:id="@+id/SeoulNatlUnivofEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교대"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <TextView
+            android:id="@+id/NambuBusTerminal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남부터미널"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="272dp" />
+
+        <TextView
+            android:id="@+id/Yangjae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="양재"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <TextView
+            android:id="@+id/Maebong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매봉"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <TextView
+            android:id="@+id/Dogok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도곡"
+            tools:layout_editor_absoluteX="174dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <TextView
+            android:id="@+id/Daechi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대치"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <TextView
+            android:id="@+id/Hangnyeoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="힉여울"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="409dp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="480dp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="507dp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="533dp" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="598dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
