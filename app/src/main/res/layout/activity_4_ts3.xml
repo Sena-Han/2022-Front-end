@@ -47,7 +47,7 @@
             app:layout_constraintTop_toBottomOf="@+id/Geumho" />
 
         <TextView
-            android:id="@+id/Euljiro3ga"
+            android:id="@+id/Jongno3ga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -307,7 +307,8 @@
             android:text="을지로3가"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Euljiro3ga" />
+            app:layout_constraintTop_toBottomOf="@+id/Jongno3ga" />
+
 
         <TextView
             android:id="@+id/Chungmuro"
