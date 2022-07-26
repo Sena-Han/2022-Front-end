@@ -17,9 +17,6 @@
             android:name="._4_T_s3Activity"
             android:exported="false" />
         <activity
-            android:name="._4_T_s2Activity"
-            android:exported="false" />
-        <activity
             android:name="._4_T_s1Activity"
             android:exported="false" />
         <activity
