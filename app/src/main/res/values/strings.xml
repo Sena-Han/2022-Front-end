@@ -5,4 +5,12 @@
     <string name="Hwaseo">화서</string>
     <string name="Incheon">인천</string>
     <string name="DongIncheon">동인천</string>
+    <string name="NationalPoliceHospital">경찰병원</string>
+    <string name="Daecheong">대청</string>
+    <string name="Bulgwang">불광</string>
+    <string name="Yeonsinnae">연신내</string>
+    <string name="Gupabal">구파발</string>
+    <string name="Jichuk">지축</string>
+    <string name="Samsong">삼송</string>
+    <string name="Wonheung">원흥</string>
 </resources>
