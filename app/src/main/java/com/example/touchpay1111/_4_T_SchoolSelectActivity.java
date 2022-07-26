@@ -9,8 +9,6 @@ import android.widget.Button;
 
 public class _4_T_SchoolSelectActivity extends AppCompatActivity {
 
-    Button stationButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
