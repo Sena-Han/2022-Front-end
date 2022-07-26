@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_droom_select.xml" value="0.32563405797101447" />
         <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_ts1.xml" value="0.286231884057971" />
         <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_ts2.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_ts3.xml" value="0.286231884057971" />
+        <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_tschool_select.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/HANSY/AndroidStudioProjects/2022-Front-end/app/src/main/res/layout/activity_4_tstation_select1.xml" value="0.32563405797101447" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/drawable-v24/bikexml.xml" value="0.1785" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/drawable-v24/taxixml.xml" value="0.1785" />
         <entry key="..\:/Users/user/Android Studio/TouchPay1111/app/src/main/res/layout/activity_2_delivery_taxi.xml" value="0.1" />
