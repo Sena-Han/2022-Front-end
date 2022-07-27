@@ -15,5 +15,15 @@ public class _4_T_SchoolSelectActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4_tschool_select);
+
+        stationButton = findViewById(R.id.stationButton);
+
+        stationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_StationSelect_1Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
