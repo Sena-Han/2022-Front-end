@@ -17,6 +17,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="개화"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,6 +29,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="김포공항"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Gaehwa" />
 
@@ -39,6 +41,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="공항시장"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/GimpoIntlAirport" />
 
@@ -50,6 +53,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="신방화"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/AirportMarket" />
 
@@ -61,6 +65,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="마곡나루"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Sinbanghwa" />
 
@@ -72,6 +77,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="양천향교"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Magongnaru" />
 
@@ -83,6 +89,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="가양"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/YangcheonHyanggyo" />
 
@@ -94,6 +101,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="증미"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Gayang" />
 
@@ -105,6 +113,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="등촌"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Jeungmi" />
 
@@ -116,6 +125,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="염창"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Deungchon" />
 
@@ -127,6 +137,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="신목동"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Yeomchang" />
 
@@ -138,6 +149,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="선유도"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Sinmokdong" />
 
@@ -149,6 +161,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="당산"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Seonyudo" />
 
@@ -160,6 +173,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="국회의사당"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Dangsan" />
 
@@ -171,6 +185,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="여의도"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/NationalAssembly" />
 
@@ -182,6 +197,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="샛강"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Yeouido" />
 
@@ -193,6 +209,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="노량진"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Saetgang" />
 
@@ -204,6 +221,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="노들"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Noryangjin" />
 
@@ -215,6 +233,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="흑석"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Nodeul" />
 
@@ -226,6 +245,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="동작"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Heukseok" />
 
@@ -237,6 +257,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="구반포"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Dongjak" />
 
@@ -248,6 +269,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="신반포"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Gubanpo" />
 
@@ -255,10 +277,13 @@
             android:id="@+id/Bongeunsa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="봉은사"
-            app:layout_constraintTop_toBottomOf="@+id/SamseongJungang"
-            tools:layout_editor_absoluteX="91dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SamseongJungang" />
 
         <TextView
             android:id="@+id/Sinnonhyeon"
@@ -268,6 +293,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="신논현"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Sapyeong" />
 
@@ -275,10 +301,13 @@
             android:id="@+id/SamseongJungang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="삼성중앙"
-            app:layout_constraintTop_toBottomOf="@+id/Seonjeongneung"
-            tools:layout_editor_absoluteX="90dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Seonjeongneung" />
 
         <TextView
             android:id="@+id/Eonju"
@@ -288,6 +317,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="언주"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Sinnonhyeon" />
 
@@ -295,10 +325,13 @@
             android:id="@+id/SportsComplex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="종합운동장"
-            app:layout_constraintTop_toBottomOf="@+id/Bongeunsa"
-            tools:layout_editor_absoluteX="106dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Bongeunsa" />
 
         <TextView
             android:id="@+id/Sapyeong"
@@ -308,6 +341,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="사평"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ExpressBusTerminal" />
 
@@ -315,10 +349,13 @@
             android:id="@+id/Seonjeongneung"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="선정릉"
-            app:layout_constraintTop_toBottomOf="@+id/Eonju"
-            tools:layout_editor_absoluteX="84dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Eonju" />
 
         <TextView
             android:id="@+id/ExpressBusTerminal"
@@ -328,6 +365,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="고속터미널"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Sinbanpo" />
 
@@ -335,66 +373,97 @@
             android:id="@+id/Samjeon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="삼전"
-            app:layout_constraintTop_toBottomOf="@+id/SportsComplex"
-            tools:layout_editor_absoluteX="226dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SportsComplex" />
 
         <TextView
             android:id="@+id/SeokchonGobun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="석촌고분"
-            app:layout_constraintTop_toBottomOf="@+id/Samjeon"
-            tools:layout_editor_absoluteX="184dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Samjeon" />
 
         <TextView
             android:id="@+id/Seokchon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="석촌"
-            app:layout_constraintTop_toBottomOf="@+id/SeokchonGobun"
-            tools:layout_editor_absoluteX="216dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SeokchonGobun" />
 
         <TextView
             android:id="@+id/Songpanaru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="31dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
             android:text="송파나루"
-            app:layout_constraintTop_toBottomOf="@+id/Seokchon"
-            tools:layout_editor_absoluteX="200dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Seokchon" />
 
         <TextView
             android:id="@+id/HanseongBaekje"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="한성백제"
-            app:layout_constraintTop_toBottomOf="@+id/Songpanaru"
-            tools:layout_editor_absoluteX="232dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Songpanaru" />
 
         <TextView
             android:id="@+id/OlympicPark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="올림픽공원"
-            app:layout_constraintTop_toBottomOf="@+id/HanseongBaekje"
-            tools:layout_editor_absoluteX="196dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HanseongBaekje" />
 
         <TextView
             android:id="@+id/DunchonOryun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="둔촌오륜"
-            app:layout_constraintTop_toBottomOf="@+id/OlympicPark"
-            tools:layout_editor_absoluteX="249dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/OlympicPark" />
 
         <TextView
             android:id="@+id/VHSMedicalCenter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:text="중앙보훈병원"
-            app:layout_constraintTop_toBottomOf="@+id/DunchonOryun"
-            tools:layout_editor_absoluteX="230dp" />
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/DunchonOryun" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
