@@ -192,8 +192,11 @@
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
             android:text="경의중앙선"
+            android:textColor="@color/white"
             android:textSize="30sp"
+            app:backgroundTint="#A3D4C0"
             app:layout_constraintEnd_toStartOf="@+id/sGC"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_I2" />
 
@@ -205,6 +208,8 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="경춘선"
+            android:textSize="30sp"
+            app:backgroundTint="#19B484"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_SB" />
     </androidx.constraintlayout.widget.ConstraintLayout>
