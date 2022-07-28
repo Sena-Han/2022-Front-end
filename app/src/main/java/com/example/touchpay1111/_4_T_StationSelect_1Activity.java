@@ -29,7 +29,7 @@ public class _4_T_StationSelect_1Activity extends AppCompatActivity {
         s_I2 = findViewById(R.id.s_I2);
         s_SB = findViewById(R.id.s_SB);
         s_GU = findViewById(R.id.s_GU);
-        sGC = findViewById(R.id.sGC);
+        sGC = findViewById(R.id.s_GC);
 
         s_1.setOnClickListener(new View.OnClickListener() {
             @Override
