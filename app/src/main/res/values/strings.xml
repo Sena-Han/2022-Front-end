@@ -159,4 +159,6 @@
     <string name="Sinseoldong">신설동</string>
     <string name="Yongsan">용산</string>
     <string name="Tangjeong">탕정</string>
+    <string name="s2">2호선</string>
+    <string name="s1">1호선</string>
 </resources>
