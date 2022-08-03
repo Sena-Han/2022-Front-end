@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class _4_T_StationSelect_1Activity extends AppCompatActivity {
 
-    Button s_1, s_2, s_3, s_4, s_5, s_6, s_7, s_8, s_9, s_I1, s_I2, s_SB, s_GU, sGC;
+    Button s_1, s_2, s_3, s_4, s_5, s_6, s_7, s_8, s_9, s_I1, s_I2, s_SB, s_GU, sGC, s_SI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class _4_T_StationSelect_1Activity extends AppCompatActivity {
         s_SB = findViewById(R.id.s_SB);
         s_GU = findViewById(R.id.s_GU);
         sGC = findViewById(R.id.s_GC);
+        s_SI = findViewById(R.id.s_SI);
 
         s_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,6 +124,14 @@ public class _4_T_StationSelect_1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), _4_T_sSBActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_SI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sSIActivity.class);
                 startActivity(intent);
             }
         });
