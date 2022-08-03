@@ -10,6 +10,54 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="332dp"
+            tools:layout_editor_absoluteY="512dp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="348dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="330dp"
+            tools:layout_editor_absoluteY="359dp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="348dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <TextView
+            android:id="@+id/Giheung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기흥"
+            tools:layout_editor_absoluteX="321dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <TextView
+            android:id="@+id/Sanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상갈"
+            tools:layout_editor_absoluteX="316dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <TextView
             android:id="@+id/s_SI"
             android:layout_width="80dp"
             android:layout_height="25dp"
@@ -23,6 +71,322 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Incheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인천"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="9dp" />
+
+        <TextView
+            android:id="@+id/Sinpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="신포"
+            app:layout_constraintTop_toBottomOf="@+id/Incheon"
+            tools:layout_editor_absoluteX="87dp" />
+
+        <TextView
+            android:id="@+id/Sungui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="숭의"
+            app:layout_constraintTop_toBottomOf="@+id/Sinpo"
+            tools:layout_editor_absoluteX="87dp" />
+
+        <TextView
+            android:id="@+id/Hogupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="호구포"
+            app:layout_constraintTop_toBottomOf="@+id/NamdongInduspark"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <TextView
+            android:id="@+id/Soraepogu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="소래포구"
+            app:layout_constraintTop_toBottomOf="@+id/IncheonNonhyeon"
+            tools:layout_editor_absoluteX="144dp" />
+
+        <TextView
+            android:id="@+id/Oido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="오이도"
+            app:layout_constraintTop_toBottomOf="@+id/Darwol"
+            tools:layout_editor_absoluteX="125dp" />
+
+        <TextView
+            android:id="@+id/Yeonsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="연수"
+            app:layout_constraintTop_toBottomOf="@+id/Songdo"
+            tools:layout_editor_absoluteX="93dp" />
+
+        <TextView
+            android:id="@+id/IncheonNonhyeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="인천논현"
+            app:layout_constraintTop_toBottomOf="@+id/Hogupo"
+            tools:layout_editor_absoluteX="119dp" />
+
+        <TextView
+            android:id="@+id/Singiloncheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="신길온천"
+            app:layout_constraintTop_toBottomOf="@+id/Jeongwang"
+            tools:layout_editor_absoluteX="132dp" />
+
+        <TextView
+            android:id="@+id/NamdongInduspark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="남동인더스파크"
+            app:layout_constraintTop_toBottomOf="@+id/Woninjae"
+            tools:layout_editor_absoluteX="113dp" />
+
+        <TextView
+            android:id="@+id/Wolgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="월곶"
+            app:layout_constraintTop_toBottomOf="@+id/Soraepogu"
+            tools:layout_editor_absoluteX="116dp" />
+
+        <TextView
+            android:id="@+id/Songdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="송도"
+            app:layout_constraintTop_toBottomOf="@+id/InhaUniv"
+            tools:layout_editor_absoluteX="127dp" />
+
+        <TextView
+            android:id="@+id/Darwol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="달월"
+            app:layout_constraintTop_toBottomOf="@+id/Wolgot"
+            tools:layout_editor_absoluteX="166dp" />
+
+        <TextView
+            android:id="@+id/Ansan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="안산"
+            app:layout_constraintTop_toBottomOf="@+id/Singiloncheon"
+            tools:layout_editor_absoluteX="180dp" />
+
+        <TextView
+            android:id="@+id/Jeongwang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="정왕"
+            app:layout_constraintTop_toBottomOf="@+id/Oido"
+            tools:layout_editor_absoluteX="165dp" />
+
+        <TextView
+            android:id="@+id/Woninjae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="원인재"
+            app:layout_constraintTop_toBottomOf="@+id/Yeonsu"
+            tools:layout_editor_absoluteX="142dp" />
+
+        <TextView
+            android:id="@+id/InhaUniv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="인하대"
+            app:layout_constraintTop_toBottomOf="@+id/Sungui"
+            tools:layout_editor_absoluteX="81dp" />
+
+        <TextView
+            android:id="@+id/Choji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="초지"
+            app:layout_constraintTop_toBottomOf="@+id/Ansan"
+            tools:layout_editor_absoluteX="125dp" />
+
+        <TextView
+            android:id="@+id/Yamok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="야목"
+            app:layout_constraintTop_toBottomOf="@+id/Sari"
+            tools:layout_editor_absoluteX="182dp" />
+
+        <TextView
+            android:id="@+id/Suwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="수원"
+            app:layout_constraintTop_toBottomOf="@+id/Gosaek"
+            tools:layout_editor_absoluteX="162dp" />
+
+        <TextView
+            android:id="@+id/HanyangUnivatAnsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="한대앞"
+            app:layout_constraintTop_toBottomOf="@+id/Jungang"
+            tools:layout_editor_absoluteX="183dp" />
+
+        <TextView
+            android:id="@+id/Eocheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="어천"
+            app:layout_constraintTop_toBottomOf="@+id/Yamok"
+            tools:layout_editor_absoluteX="151dp" />
+
+        <TextView
+            android:id="@+id/Gosaek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="고색"
+            app:layout_constraintTop_toBottomOf="@+id/Omokcheon"
+            tools:layout_editor_absoluteX="179dp" />
+
+        <TextView
+            android:id="@+id/Jungang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="중앙"
+            app:layout_constraintTop_toBottomOf="@+id/Gojan"
+            tools:layout_editor_absoluteX="146dp" />
+
+        <TextView
+            android:id="@+id/Sari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="사리"
+            app:layout_constraintTop_toBottomOf="@+id/HanyangUnivatAnsan"
+            tools:layout_editor_absoluteX="162dp" />
+
+        <TextView
+            android:id="@+id/Omokcheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="오목천"
+            app:layout_constraintTop_toBottomOf="@+id/Eocheon"
+            tools:layout_editor_absoluteX="162dp" />
+
+        <TextView
+            android:id="@+id/Maegyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="매교"
+            app:layout_constraintTop_toBottomOf="@+id/Suwon"
+            tools:layout_editor_absoluteX="186dp" />
+
+        <TextView
+            android:id="@+id/Gojan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="고잔"
+            app:layout_constraintTop_toBottomOf="@+id/Choji"
+            tools:layout_editor_absoluteX="151dp" />
+
+        <TextView
+            android:id="@+id/SuwonCityHall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수원시청"
+            tools:layout_editor_absoluteX="288dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:id="@+id/MaetanGwonseon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="매탄권선"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="81dp" />
+
+        <TextView
+            android:id="@+id/Mangpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="망포"
+            tools:layout_editor_absoluteX="304dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <TextView
+            android:id="@+id/Yeongtong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영통"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <TextView
+            android:id="@+id/Cheongmyeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="청명"
+            tools:layout_editor_absoluteX="322dp"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="305dp"
+            tools:layout_editor_absoluteY="432dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

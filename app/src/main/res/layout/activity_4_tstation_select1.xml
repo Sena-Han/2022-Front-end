@@ -255,8 +255,7 @@
             android:textColor="#73B6E4"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/s_GC"
-            app:textColor="#73B6E4" />
+            app:layout_constraintTop_toBottomOf="@+id/s_GC"/>
 
         <android.widget.Button
             android:id="@+id/s_SR"
